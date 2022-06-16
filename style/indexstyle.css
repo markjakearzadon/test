@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+.nav {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: inline;
+    margin: 0 auto;
+}
+.navsvg {
+    width: 20px;
+    display: block;
+    padding: 13px;
+}
+.bars-solid {
+    float: left;
+    
+}
+.bag-shopping-solid {
+    float: right;
+}
+.navbottom {
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    border-top: 1px solid gray;
+}
+.navbsvg {
+    width: 30px;
+    display: block;
+    padding: 15px;
+    margin: 0 auto;
+}
+#user {
+    width: 26px;
+}
+#house, #cart {
+    width: 33px;
+}
+.main {
+    margin-top: 100px;
+    background-color: white;
+    padding: 0;
+    display: block;
+}
+table {
+    margin: 0 auto;
+    border: none
+}
+.product {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 3px 3px 0 gray;
+    margin: 10px 10px;
+    display: inline-block;
+}
+.tda {
+    background-color: white;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+.prop {
+    background: none;
+    border: none;
+    border-radius: 0 0 9px 9px;
+    text-align: center;
+    padding: 5px 0
+}
+.productimage {
+    width: 120px;
+    display: block
+    border: none;
+    border-radius: 9px 9px 5px 5px;
+}
